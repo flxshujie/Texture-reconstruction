@@ -1,0 +1,2 @@
+ADD_LIBRARY(LoopyBeliefProgation LoopyBeliefProgation.cpp LoopyBeliefProgation.h)
+target_link_libraries(LoopyBeliefProgation ioLib)

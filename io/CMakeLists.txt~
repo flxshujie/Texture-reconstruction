@@ -1,0 +1,10 @@
+ADD_LIBRARY(ioLib   Camera.h      Camera.cpp
+		    BundlerBase.h BundlerBase.cpp 
+		    PlyBase.h     PlyBase.cpp 
+		    PatchBase.h   PatchBase.cpp
+		    Face.h	  Face.cpp
+	            Point.h      
+		    ANNWrapper.h  ANNWrapper.cpp
+		    LBPNode.h     LBPNode.cpp)
+target_link_libraries(ioLib ${OpenCV_LIBS} libANN.a)
+

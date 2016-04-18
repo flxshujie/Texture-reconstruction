@@ -1,0 +1,2 @@
+ADD_LIBRARY(AssignVisibleCamera AssignVisibleCameras.cpp AssignVisibleCameras.h)
+target_link_libraries(AssignVisibleCamera ioLib)

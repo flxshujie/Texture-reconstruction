@@ -1,0 +1,3 @@
+#include "LBPNode.h"
+
+LBPNode::

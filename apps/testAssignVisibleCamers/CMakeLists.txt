@@ -1,0 +1,2 @@
+add_executable(testAssignVisibleCamers testAssignVisibleCamers.cpp)
+target_link_libraries(testAssignVisibleCamers AssignVisibleCamera ioLib)
